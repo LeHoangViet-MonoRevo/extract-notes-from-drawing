@@ -1,5 +1,7 @@
 import base64
+
 from openai import OpenAI
+
 from prompt import prompt
 
 api_key = "EMPTY"
@@ -8,7 +10,6 @@ model = "Qwen/Qwen2.5-VL-3B-Instruct"
 max_tokens = 192
 min_pixels = 3136  # 3 * 28 * 28
 max_pixels = 12845056  # 16384 * 28 * 28
-
 
 
 client = OpenAI(api_key=api_key, base_url=api_base)

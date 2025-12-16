@@ -2,8 +2,6 @@ import re
 from typing import List
 
 
-
-
 def parse_notes_content_only(raw_text: str) -> list[str]:
     if not raw_text:
         return []

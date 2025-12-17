@@ -209,3 +209,4 @@ __marimo__/
 *.jpg
 *.png
 *.pdf
+.DS_Store
